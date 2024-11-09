@@ -1,0 +1,6 @@
+y = int(input())
+y = y%4
+if y == 0:
+    print('Високосный год')
+else:
+    print('Обычный год')
